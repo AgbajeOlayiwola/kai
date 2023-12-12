@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+}
+input {
+  border-radius: 8px;
+  border: 0.6px solid var(--Grey-3, #d4d4d4);
+  background: var(--White, #fff);
+  padding: 12px;
+  padding-left: 20px;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("/Roboto/Roboto-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilgan";
+  src: url("/gilgan/Gilgan.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+button {
+  padding: 10px;
+  background: #136464;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  width: 100%;
+}
+h1 {
+  font-family: "gilgan";
+}
+h2 {
+  font-family: "roboto";
+}
+h3 {
+  font-family: "roboto";
+}
+h4 {
+  font-family: "roboto";
+}
+h5 {
+  font-family: "roboto";
+}
+p {
+  font-family: "gilgan";
+  font-weight: 300;
+}
+strong{
+  font-family: "gilgan";
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a :hover {
+  text-decoration: underline;
+}

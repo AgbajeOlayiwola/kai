@@ -1,0 +1,47 @@
+.nav {
+  display: flex;
+  padding-left: 8%;
+  padding-right: 8%;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.logo {
+  width: 10%;
+  height: 50px;
+  background: black;
+}
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  width: 40%;
+}
+.navLinks h1 {
+  font-size: 18px;
+  color: black;
+}
+.hr {
+  transform: skew(-18deg, 10deg);
+  height: 20px;
+}
+.mail {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+@media screen and (max-width: 900px) {
+  .mail {
+    display: flex;
+    gap: 10px;
+    width: 300px;
+    align-items: center;
+  }
+  .navLinks h1 {
+    font-size: 18px;
+    color: white;
+  }
+}

@@ -1,0 +1,37 @@
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 60px;
+    background: url('/Images/pexels-pixabay-40568.jpg')center/cover no-repeat fixed;
+}
+.form{
+    z-index: 100;
+}
+.form label{
+    color: white;
+}
+.form div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding-bottom: 30px;
+    z-index: 1000;
+}
+.form select{
+    border: 1px solid #d3d3d3;
+    border-radius: 12px;
+    padding: 12px;
+}
+.overlay{
+    width: 100vw;
+    height: 81vh;
+    position: fixed;
+    z-index: 1;
+    top: 102px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}

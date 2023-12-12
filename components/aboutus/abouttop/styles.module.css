@@ -1,0 +1,23 @@
+.aboutus{
+    font-size: 200px;
+    color: white;
+}
+.cov{
+    background:linear-gradient(rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)), url('/images/about.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 900px) {
+
+    .aboutus{
+        font-size: 50px;
+        color: white;
+    }
+    .cov{
+        background:linear-gradient(rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)), url('/images/about.jpg') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

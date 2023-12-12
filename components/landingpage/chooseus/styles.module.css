@@ -1,0 +1,51 @@
+.nuse {
+  text-align: center;
+  text-decoration: underline;
+}
+.choose {
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+.wide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ulli {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 85%;
+}
+
+@media screen and (max-width: 900px) {
+  .nuse {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30%;
+  }
+  .choose {
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .wide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .ulli {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .svg {
+    width: 100%;
+  }
+  .svg > svg {
+    width: 100%;
+  }
+}

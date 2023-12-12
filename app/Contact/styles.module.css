@@ -1,0 +1,96 @@
+.contact{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.form > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.formDiv{
+    width: 40%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 27%;
+    flex-direction: column;
+}
+.reg{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 80PX;
+}
+.contactInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 65px;
+}
+.mail > div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.mail > div h2{
+    margin-bottom: 0px;
+}
+.socials{
+    display: flex;
+    gap: 10px;
+}
+@media screen and (max-width: 900px) {
+    .contactInfo{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 65px;
+    }
+.formDiv {
+    width: 100%;
+}
+.open{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 60px;
+}
+.reg{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 80PX;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    flex-direction: column;
+}
+}
+

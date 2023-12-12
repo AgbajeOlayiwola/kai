@@ -1,0 +1,41 @@
+.nurses{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.nur{
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+}
+.paraG{
+    width: 40%;
+}
+.nurseDic{
+    width: 50%;
+    height: 400px;
+    background-color: black;
+}
+@media screen and (max-width: 900px) {
+    .nurses{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .nur{
+        font-size: 60px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .paraG{
+        width: 98%;
+    }
+    .nurseDic{
+        width: 30%;
+        height: 300px;
+        background-color: black;
+    }
+}

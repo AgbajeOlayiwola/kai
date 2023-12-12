@@ -1,0 +1,129 @@
+.mid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+.ul li {
+  list-style: none;
+}
+.mid > div {
+  width: 30%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90px;
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
+  cursor: pointer;
+  background: #b4051464;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  padding: 10px;
+  color: white;
+}
+.mid > div:hover {
+  height: fit-content;
+  transition: height 0.5s ease-in-out;
+}
+.mid div > h1 {
+  font-size: 40px;
+}
+.mid div > p {
+  font-size: 16px;
+}
+.missionCov {
+  padding-top: 23%;
+}
+.values {
+  border-radius: 40px;
+  margin-top: 20px;
+  padding: 20px;
+  background: #7dcfcfa0;
+  margin-bottom: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.outerPart {
+  display: flex;
+  justify-content: center;
+}
+.values ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.values li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+@media screen and (max-width: 900px) {
+  .mid {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .ul li {
+    list-style: none;
+  }
+  .mid > div {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+    cursor: pointer;
+    background: #b4051464;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    padding: 10px;
+    color: white;
+  }
+  .mid > div:hover {
+    height: 400px;
+    transition: height 0.5s ease-in-out;
+  }
+  .mid div > h1 {
+    font-size: 30px;
+  }
+  .mid div > p {
+    font-size: 12px;
+  }
+  .missionCov {
+    padding-top: 23%;
+  }
+  .values {
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 20px;
+    background: #7dcfcfa0;
+    margin-bottom: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .outerPart {
+    display: flex;
+    justify-content: center;
+  }
+  .values ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .values li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+}

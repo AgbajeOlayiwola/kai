@@ -1,0 +1,135 @@
+.srvicsFlex {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.coverTwo {
+  height: 500px;
+  background-color: red;
+  width: 50%;
+}
+.coverOne {
+  height: 500px;
+  background-color: red;
+  width: 50%;
+}
+
+.srvicsFlexI {
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-left: 20%; */
+  /* padding-right: 20%; */
+  text-align: end;
+}
+.srvicsFlexI p {
+  text-align: center;
+}
+.srvicsFlexI h1 {
+  color: #651d65;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px; /* 77.5% */
+}
+.srvicsFlexII p {
+  text-align: center;
+}
+.srvicsFlexII h1 {
+  color: #6a6a17;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px;
+}
+.srvicsFlexII {
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-left: 20%;
+  padding-right: 20%; */
+}
+.srvicsFlexInner {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  flex-direction: row;
+}
+@media screen and (max-width: 900px) {
+  .srvicsFlex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .coverTwo {
+    height: 500px;
+    background-color: red;
+    width: 50%;
+  }
+  .coverOne {
+    height: 500px;
+    background-color: red;
+    width: 50%;
+  }
+  
+  .srvicsFlexI {
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-left: 20%; */
+    /* padding-right: 20%; */
+    text-align: end;
+  }
+  .srvicsFlexI p {
+    text-align: center;
+  }
+  .srvicsFlexI h1 {
+    color: #651d65;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px; /* 77.5% */
+  }
+  .srvicsFlexII p {
+    text-align: center;
+  }
+  .srvicsFlexII h1 {
+    color: #6a6a17;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+  }
+  .srvicsFlexII {
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 20%;
+    padding-right: 20%; */
+  }
+  .srvicsFlexInner {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    flex-direction: column;
+   align-items: center;
+   overflow: hidden;
+  }
+
+}

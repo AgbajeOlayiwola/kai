@@ -1,0 +1,138 @@
+.Foot {
+  background: #b405148c;
+  padding-left: 8%;
+  padding-right: 8%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 50px;
+}
+.navLinks{
+width: 33%;
+}
+
+.navLinks h1 {
+  font-size: 20px;
+  width: 100%;
+}
+.mail{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.coverInn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(240, 248, 255, 0.306);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coverInnWhite {
+  background: white;
+  border-radius: 20px;
+  height: 70vh;
+  width: 50vw;
+  color: black;
+  overflow: scroll;
+  padding: 15px 20px;
+}
+.policy {
+  display: flex;
+  justify-content: space-between;
+}
+.socials{
+  display: flex;
+  gap: 21px;
+}
+.socials svg{
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: black;
+}
+.cancl {
+  font-size: 25px;
+}
+.right{
+  display: flex;
+  width: 58%;
+  gap: 27px;
+  justify-content: space-between;
+}
+@media screen and (max-width: 900px) {
+  .Foot {
+    background: #b405148c;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+    margin-top: 50px;
+  }
+  .navLinks{
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .navLinks h1 {
+    font-size: 20px;
+    width: 100%;
+    width: 100%;
+  }
+  .mail{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+  }
+  .coverInn {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(240, 248, 255, 0.306);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .coverInnWhite {
+    background: white;
+    border-radius: 20px;
+    height: 70vh;
+    width: 50vw;
+    color: black;
+    overflow: scroll;
+    padding: 15px 20px;
+  }
+  .policy {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .socials{
+    display: flex;
+    gap: 21px;
+  }
+  .socials svg{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  .cancl {
+    font-size: 25px;
+  }
+  .right{
+    display: flex;
+    width: 100%;
+    gap: 27px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
