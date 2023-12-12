@@ -81,6 +81,7 @@
     flex-direction: column;
     color: white;
     margin-top: 50px;
+    gap: 50px;
   }
   .navLinks {
     width: 100%;
