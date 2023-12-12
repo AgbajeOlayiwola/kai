@@ -84,7 +84,7 @@ const Navbar = () => {
   return (
     <div className={style.nav}>
       <Link href="/">
-        <Image src={logo} width={250} height={100} alt="mapple staff logo" />
+        <Image src={logo} width={150} height={100} alt="mapple staff logo" />
       </Link>
       {width > 900 ? (
         <div className={style.navLinks}>

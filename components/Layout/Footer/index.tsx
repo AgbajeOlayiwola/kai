@@ -5,7 +5,7 @@ import { useState } from "react";
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsLinkedin } from 'react-icons/bs';
 import { FaLocationArrow } from 'react-icons/fa';
-import logo from '../../../public/Images/trans.png';
+import logo from '../../../public/Images/logowhite.jpeg';
 import styles from "./styles.module.css";
 const Footer = () => {
   const [showModal, setShowModal] = useState(false)
@@ -13,8 +13,8 @@ const Footer = () => {
     <div className={styles.Foot}>
      <Image
         src={logo}
-        width={350}
-        height={180}
+        width={150}
+        height={100}
         alt="mapple staff logo"
       />
       <div className={styles.right}>
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         
       </div>
-      <div>
+      <div className={styles.divh2}>
         <h2>Stay Connected</h2>
         <div className={styles.socials}>
          <Link href='#' target='_blank'><BsLinkedin/></Link> 

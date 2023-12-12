@@ -1,5 +1,5 @@
 .Foot {
-  background: #b405148c;
+  background: #fff;
   padding-left: 8%;
   padding-right: 8%;
   display: flex;
@@ -7,15 +7,15 @@
   color: white;
   margin-top: 50px;
 }
-.navLinks{
-width: 33%;
+.navLinks {
+  width: 33%;
 }
 
 .navLinks h1 {
   font-size: 20px;
   width: 100%;
 }
-.mail{
+.mail {
   display: flex;
   gap: 10px;
   align-items: center;
@@ -44,11 +44,11 @@ width: 33%;
   display: flex;
   justify-content: space-between;
 }
-.socials{
+.socials {
   display: flex;
   gap: 21px;
 }
-.socials svg{
+.socials svg {
   font-size: 40px;
   margin-bottom: 20px;
   color: black;
@@ -56,15 +56,24 @@ width: 33%;
 .cancl {
   font-size: 25px;
 }
-.right{
+.right {
   display: flex;
   width: 58%;
   gap: 27px;
-  justify-content: space-between;
+  justify-content: flex-end;
+}
+.divh2 {
+  color: #000;
+}
+.divh2 h2 {
+  margin-top: 0px;
+}
+.mail p {
+  margin-top: 0px;
 }
 @media screen and (max-width: 900px) {
   .Foot {
-    background: #b405148c;
+    background: #fff;
     padding-left: 8%;
     padding-right: 8%;
     display: flex;
@@ -73,18 +82,18 @@ width: 33%;
     color: white;
     margin-top: 50px;
   }
-  .navLinks{
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
+  .navLinks {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
   }
-  
+
   .navLinks h1 {
     font-size: 20px;
     width: 100%;
     width: 100%;
   }
-  .mail{
+  .mail {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -113,13 +122,12 @@ width: 33%;
   .policy {
     display: flex;
     justify-content: space-between;
-    
   }
-  .socials{
+  .socials {
     display: flex;
     gap: 21px;
   }
-  .socials svg{
+  .socials svg {
     font-size: 40px;
     margin-bottom: 20px;
     color: black;
@@ -127,7 +135,7 @@ width: 33%;
   .cancl {
     font-size: 25px;
   }
-  .right{
+  .right {
     display: flex;
     width: 100%;
     gap: 27px;
