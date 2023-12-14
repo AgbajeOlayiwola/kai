@@ -4,18 +4,9 @@ import { useForm } from "react-hook-form";
 import styles from "./styles.module.css";
 
 export type FormData = {
-  fullName: string;
   email: string;
-  phone: string;
-  addressStreet: string;
-  date: string;
-  addressCity: string;
-  province: string;
-  postalCode: string;
-  country: string;
-  available: string;
   message: string;
-
+  Subject: string;
 };
 
 const JoinUs = ({svg}:{svg?:any}) => {
@@ -41,27 +32,19 @@ const JoinUs = ({svg}:{svg?:any}) => {
               data-aos="fade-down"
                 type="text"
                 placeholder="Email"
-                id="addressCity"
-                {...register('addressCity', { required: true })}
+                id="email"
+                {...register('email', { required: true })}
                 required
               />
               <input
               data-aos="fade-down"
                 type="text"
                 id="Subject"
-                placeholder="Province"
-                {...register('province', { required: true })}
+                placeholder="Subject"
+                {...register('Subject', { required: true })}
                 required
               />
 
-              <input
-              data-aos="fade-down"
-                type="text"
-                id="postalCode"
-                placeholder="Postal Code"
-                {...register('postalCode', { required: true })}
-                required
-              />
 
               <div className={styles.texareaDiv}
               data-aos="fade-down"> 

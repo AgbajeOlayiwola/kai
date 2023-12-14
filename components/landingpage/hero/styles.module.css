@@ -69,21 +69,21 @@
     top: 0;
     left: 0;
   }
-  .heror h1 {
+  .heror h3 {
     margin: 0px;
-    font-size: 50px;
+    font-size: 25px;
     color: white;
     background: #b4051464;
   }
   .heror p {
-    font-size: 15px;
+    font-size: 12px;
     color: white;
     background: #b4051464;
   }
   .sliderImage {
     filter: blur(20px);
   }
-  
+
   /* the 'blur' effect */
   .blur:before {
     content: "";
@@ -109,5 +109,4 @@
     width: 50%;
     text-align: center;
   }
-
 }

@@ -58,8 +58,8 @@
 }
 .right {
   display: flex;
-  width: 58%;
-  gap: 27px;
+  width: 100%;
+  gap: 60px;
   justify-content: flex-end;
 }
 .divh2 {

@@ -1,6 +1,7 @@
 "use client"
 import Planet from "@/components/animations/planet"
 import Image from "next/image"
+import { useEffect, useState } from "react"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick-theme.css"
 import "slick-carousel/slick/slick.css"
@@ -16,6 +17,24 @@ const HeroSection = () => {
     autoplay: true,
     arrows: false,
   }
+  const [width, setWidth] = useState(0)
+  const [height, setHeight] = useState(0)
+
+  const handleWindowResize = () => {
+    setWidth(window.innerWidth)
+    setHeight(window.innerHeight)
+    console.log(width)
+  }
+
+  useEffect(() => {
+    setWidth(window.innerWidth)
+    setHeight(window.innerHeight)
+    // component is mounted and window is available
+    handleWindowResize()
+    window.addEventListener("resize", handleWindowResize)
+    // unsubscribe from the event on component unmount
+    return () => window.removeEventListener("resize", handleWindowResize)
+  }, [width])
   // /Images/hero.jpg
   return (
     <div className={styles.heroSect}>
@@ -52,8 +71,14 @@ const HeroSection = () => {
       </Slider>
       {/* </div> */}
       <div className={styles.heror}>
-        <h1 data-aos="fade-down">The Creative Archival</h1>
-        <h1 data-aos="fade-down">Project (CAP).</h1>
+        {width > 900 ? (
+          <>
+            <h1 data-aos="fade-down">The Creative Archival</h1>
+            <h1 data-aos="fade-down">Project (CAP)</h1>
+          </>
+        ) : (
+          <h3 data-aos="fade-down">The Creative Archival Project (CAP)</h3>
+        )}
         <p className={styles.nursing} data-aos="fade-up">
           Collaborating with The Initiative For Equal Rights (TIERs), I propose
           compiling a comprehensive Wikipedia of LGBTQ+ creatives in Nigeria.

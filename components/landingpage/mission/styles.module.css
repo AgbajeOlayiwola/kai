@@ -90,7 +90,7 @@
     color: white;
   }
   .mid > div:hover {
-    height: 400px;
+    height: fit-content;
     transition: height 0.5s ease-in-out;
   }
   .mid div > h1 {

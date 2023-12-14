@@ -26,8 +26,8 @@ const Footer = () => {
         <Link href="/Contact"> <h1>Contact</h1> </Link> */}
         <div>
        <div className={styles.mail}> <AiOutlineMail/>  
-       <Link href='mailto:maplestaffconnect.ca'>
-        <p>emmail@email.ca</p>
+       <Link href='mailto:thecreativearchivalproject@gmail.com'>
+        <p>thecreativearchivalproject@gmail.com</p>
         </Link>
         </div> 
        <div  className={styles.mail}> <FaLocationArrow/> <p>460 eemmakl</p></div> 

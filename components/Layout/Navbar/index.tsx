@@ -98,21 +98,21 @@ const Navbar = () => {
           <hr className={style.hr} />
           <div className={style.mail}>
             {" "}
-            <AiOutlineMail /> <p>email@email.ca</p>
+            <AiOutlineMail /> <p>thecreativearchivalproject@gmail.com</p>
           </div>
           <hr className={style.hr} />
           <div>
-            <div className={style.mail}>
+            {/* <div className={style.mail}>
               <AiFillPhone />
               <Link href="tel">
                 <p>(123)897-098765</p>
               </Link>
-            </div>
+            </div> */}
           </div>
           <div className={style.mail}>
-            <AiFillPhone />
+            {/* <AiFillPhone /> */}
             <Link href="https://thecreativearchivalproject.wordpress.com/about/" target='_blank'>
-              <p>Blog</p>
+              <p>CAP blog</p>
             </Link>
           </div>
         </div>
@@ -132,22 +132,22 @@ const Navbar = () => {
             <div className={style.mail}>
               {" "}
               <AiOutlineMail />
-              <Link href="mailto:maplestaffconnect.ca">
-                <p>emmail@emmail.ca</p>
+              <Link href="mailto:thecreativearchivalproject@gmail.com">
+                <p>thecreativearchivalproject@gmail.com</p>
               </Link>
             </div>
             <div>
-              <div className={style.mail}>
+              {/* <div className={style.mail}>
                 <AiFillPhone />
                 <Link href="tel:6476579902">
                   <p>(123)897-098765</p>
                 </Link>
-              </div>
+              </div> */}
             </div>
             <div className={style.mail}>
-              <AiFillPhone />
+              {/* <AiFillPhone /> */}
               <Link  href="https://thecreativearchivalproject.wordpress.com/about/" target='_blank'>
-                <p>Blog</p>
+                <p>CAP blog</p>
               </Link>
             </div>
           </div>
