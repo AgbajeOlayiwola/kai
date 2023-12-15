@@ -73,19 +73,19 @@ const HeroSection = () => {
       <div className={styles.heror}>
         {width > 900 ? (
           <>
-            <h1 data-aos="fade-down">The Creative Archival</h1>
-            <h1 data-aos="fade-down">Project (CAP)</h1>
+            <h1 data-aos="fade-down">The</h1>
+            <h1 data-aos="fade-down">Creative Archival Project</h1>
+            <h1 data-aos="fade-down"> (CAP)</h1>
           </>
         ) : (
-          <h3 data-aos="fade-down">The Creative Archival Project (CAP)</h3>
+          <>
+          <h3  data-aos="fade-down">The</h3>
+          <h3 data-aos="fade-down"> Creative Archival Project </h3>
+          <h3  data-aos="fade-down">(CAP)</h3>
+          </>
         )}
         <p className={styles.nursing} data-aos="fade-up">
-          Collaborating with The Initiative For Equal Rights (TIERs), I propose
-          compiling a comprehensive Wikipedia of LGBTQ+ creatives in Nigeria.
-          Over the years, LGBTQ+ creatives have lived their lives creating art
-          that properly represents their community, but because of the nature of
-          our society, frequently, their work gets buried, or they do not get
-          accurate recognition for the fantastic things they do.
+         An archive of the lives and experiences of LGBTQ+ creatives In Nigeria. 
         </p>
         <Planet />
       </div>
