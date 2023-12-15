@@ -3,11 +3,11 @@ import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import { push as Menu } from "react-burger-menu"
-import { AiFillPhone, AiOutlineMail } from "react-icons/ai"
+import { AiOutlineMail } from "react-icons/ai"
 import { BsFillMenuAppFill } from "react-icons/bs"
+import { FaPencilAlt } from "react-icons/fa"
 import logo from "../../../public/Images/logowhite.jpeg"
 import style from "./styles.module.css"
-
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false)
 
@@ -112,6 +112,7 @@ const Navbar = () => {
           <div className={style.mail}>
             {/* <AiFillPhone /> */}
             <Link href="https://thecreativearchivalproject.wordpress.com/about/" target='_blank'>
+              <FaPencilAlt />
               <p>CAP blog</p>
             </Link>
           </div>
@@ -130,9 +131,9 @@ const Navbar = () => {
           <h1>Contact</h1>
         </Link> */}
             <div className={style.mail}>
-              {" "}
-              <AiOutlineMail />
+             
               <Link href="mailto:thecreativearchivalproject@gmail.com">
+                <AiOutlineMail />
                 <p>thecreativearchivalproject@gmail.com</p>
               </Link>
             </div>
@@ -147,6 +148,7 @@ const Navbar = () => {
             <div className={style.mail}>
               {/* <AiFillPhone /> */}
               <Link  href="https://thecreativearchivalproject.wordpress.com/about/" target='_blank'>
+                <FaPencilAlt />
                 <p>CAP blog</p>
               </Link>
             </div>
