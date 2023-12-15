@@ -111,8 +111,9 @@ const Navbar = () => {
           </div>
           <div className={style.mail}>
             {/* <AiFillPhone /> */}
-            <Link href="https://thecreativearchivalproject.wordpress.com/about/" target='_blank'>
               <FaPencilAlt />
+            <Link href="https://thecreativearchivalproject.wordpress.com/about/" target='_blank'>
+            
               <p>CAP blog</p>
             </Link>
           </div>
@@ -131,9 +132,9 @@ const Navbar = () => {
           <h1>Contact</h1>
         </Link> */}
             <div className={style.mail}>
-             
+              <AiOutlineMail />
               <Link href="mailto:thecreativearchivalproject@gmail.com">
-                <AiOutlineMail />
+               
                 <p>thecreativearchivalproject@gmail.com</p>
               </Link>
             </div>
@@ -147,8 +148,9 @@ const Navbar = () => {
             </div>
             <div className={style.mail}>
               {/* <AiFillPhone /> */}
+              <FaPencilAlt />
               <Link  href="https://thecreativearchivalproject.wordpress.com/about/" target='_blank'>
-                <FaPencilAlt />
+                
                 <p>CAP blog</p>
               </Link>
             </div>
