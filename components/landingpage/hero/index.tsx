@@ -79,13 +79,14 @@ const HeroSection = () => {
           </>
         ) : (
           <>
-          <h3  data-aos="fade-down">The</h3>
-          <h3 data-aos="fade-down"> Creative Archival Project </h3>
-          <h3  data-aos="fade-down">(CAP)</h3>
+            <h3 data-aos="fade-down">The</h3>
+            <h3 data-aos="fade-down"> Creative Archival Project </h3>
+            <h3 data-aos="fade-down">(CAP)</h3>
           </>
         )}
         <p className={styles.nursing} data-aos="fade-up">
-         An archive of the lives and experiences of LGBTQ+ creatives In Nigeria. 
+          An archive of the lives and experiences of LGBTQ+ creatives In
+          Nigeria.
         </p>
         <Planet />
       </div>
